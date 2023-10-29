@@ -1,2 +1,3 @@
-# merceria_pompon
-Sistema para la mercería pompón
+# Mercería Pompón
+
+Sistema para la mercería Pompón.
