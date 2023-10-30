@@ -1,0 +1,12 @@
+.HomePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pompon_grande_img {
+    display: block;
+    width: 100%;
+}

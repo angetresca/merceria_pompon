@@ -1,0 +1,26 @@
+{
+  "name": "merceria_pompon_backend",
+  "version": "0.1.0",
+  "description": "Backend para la mercería Pompón",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-angetresca:angetresca/merceria_pompon.git"
+  },
+  "author": "angetresca@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0",
+    "nodemon": "^3.0.1"
+  }
+}

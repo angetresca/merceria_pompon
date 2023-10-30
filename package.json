@@ -1,0 +1,22 @@
+{
+    "name": "merceria_pompon",
+    "version": "0.1.0",
+    "description": "Sistema para la mercería Pompón",
+    "main": "backend/app.js",
+    "scripts": {
+      "start": "node backend/app.js",
+      "start:frontend": "cd frontend && npm start",
+      "test:frontend": "cd frontend && npm test",
+      "test:backend": "cd backend && npm test",
+      "test": "npm run test:frontend && npm run test:backend"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "validator": "^10.11.0",
+      "date-fns": "^2.24.0"
+    },
+    "devDependencies": {
+      "eslint": "^7.27.0",
+      "prettier": "^2.2.1"
+    }
+  }
