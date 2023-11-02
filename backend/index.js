@@ -11,8 +11,9 @@ app.use(express.json());
 
 // Sample data (simulating a database)
 let products = [
-  { id: 1, name: 'Thread', stock: 100 },
-  { id: 2, name: 'Fabric', stock: 50 },
+  { id: 1, name: 'Thread', provider: "foo", stock: 100, unitPrice: 100, totalPrice: 10000 },
+  { id: 2, name: 'Fabric', provider: "foo2" ,stock: 50, unitPrice: 100, totalPrice: 5000 },
+  { id: 3, name: 'Needle', provider: "foo" ,stock: 50, unitPrice: 10, totalPrice: 500 },
 ];
 
 // Example routes

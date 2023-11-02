@@ -15,7 +15,6 @@ const ProductPage = () => {
                     throw new Error('Getting products - Response not ok. ', response);
                 }
                 const data = await response.json().catch(error => { throw new Error('Getting products - json not readable. ', error) });
-                console.log(data)
                 setProducts(data);
             } catch (error) {
                 console.error(error);
